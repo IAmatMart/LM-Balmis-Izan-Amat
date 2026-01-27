@@ -1,0 +1,16 @@
+<Band>
+  <NameBand>The Beatles</NameBand>
+  <History>Legendary English rock band formed in Liverpool.</History>
+  <Member BDate="1940-10-09" Plays="p1">
+    <NameMember>John Lennon</NameMember>
+    <Role>Guitar, Vocals</Role>
+    <Joined YEAR="1960"/>
+  </Member>
+  <Member BDate="1942-11-07" Plays="p2">
+    <NameMember>Paul McCartney</NameMember>
+    <Role>Bass, Vocals</Role>
+    <Joined YEAR="1960"/>
+  </Member>
+  <Instument Id="p1">Guitar</Instument>
+  <Instument Id="p2">Bass</Instument>
+</Band>

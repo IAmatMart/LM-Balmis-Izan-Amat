@@ -1,0 +1,13 @@
+<!ELEMENT Band (NameBand, (History | Awards)?, Member+, Instument*)>
+<!ELEMENT NameBand (#PCDATA)>
+<!ELEMENT History (#PCDATA)>
+<!ELEMENT Awards (#PCDATA)>
+<!ELEMENT Member (NameMember, Role, Joined)>
+  <!ATTLIST Member BDate NMTOKEN #IMPLIED>
+  <!ATTLIST Member Plays IDREF #REQUIRED>
+<!ELEMENT NameMember (#PCDATA)>
+<!ELEMENT Role (#PCDATA)>
+<!ELEMENT Joined (EMPTY)>
+  <!ATTLIST Joined YEAR CDATA #REQUIRED>
+<!ELEMENT Instument (#PCDATA)>
+  <!ATTLIST Instument Id ID #REQUIRED>

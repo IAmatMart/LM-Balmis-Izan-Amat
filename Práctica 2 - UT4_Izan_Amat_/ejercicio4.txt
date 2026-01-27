@@ -1,0 +1,16 @@
+
+a/ Errores del primer DTD
+
+// Se usa CDATA en lugar de #PCDATA para texto.
+
+No se define el elemento <numeros>.
+
+En el XML falta el elemento <numero>, debería ser <numeros><numero>52</numero></numeros>.
+
+b/ Errores del segundo DTD
+
+DTD define ligaDeFutbol pero XML usa <liga>, no coinciden.
+
+Falta definir en DTD el elemento raíz <liga>.
+
+En el tercer <partido> falta el <visitante>
