@@ -1,6 +1,0 @@
-Hola
-Que tal
-Estoy probando el chat
-Funciona?
-Sí funciona bien
-Perfecto
