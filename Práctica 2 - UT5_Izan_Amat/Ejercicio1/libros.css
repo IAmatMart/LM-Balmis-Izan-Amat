@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#contenedor {
+  text-align: center;
+}
+
+table 
+{
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+th, td 
+{
+  border: 1px solid rgb(255, 38, 0);
+  padding: 8px;
+}
